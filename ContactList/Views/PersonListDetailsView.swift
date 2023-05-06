@@ -1,5 +1,5 @@
 //
-//  PersonListDetails.swift
+//  PersonListDetailsView.swift
 //  ContactList
 //
 //  Created by Дмитрий Лубов on 06.05.2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PersonListDetails: View {
+struct PersonListDetailsView: View {
     
     let personList: [Person]
     
@@ -27,6 +27,6 @@ struct PersonListDetails: View {
 
 struct PersonListDetails_Previews: PreviewProvider {
     static var previews: some View {
-        PersonListDetails(personList: Person.getPersonsList())
+        PersonListDetailsView(personList: Person.getPersonsList())
     }
 }
