@@ -5,7 +5,7 @@
 //  Created by Дмитрий Лубов on 02.03.2023.
 //
 
-struct Person {
+struct Person: Hashable {
     let name: String
     let surname: String
     
