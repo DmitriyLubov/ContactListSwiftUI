@@ -58,11 +58,14 @@ extension Person {
 }
 
 enum Contacts {
+    case person
     case phone
     case email
     
     var imageName: String {
         switch self {
+        case .person:
+            return "person.fill"
         case .phone:
             return "phone"
         case .email:
