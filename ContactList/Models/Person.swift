@@ -9,8 +9,8 @@ struct Person: Hashable {
     let name: String
     let surname: String
     
-    let phones: String
-    let emails: String
+    let phone: String
+    let email: String
     
     var fullName: String {
         "\(name) \(surname)"
@@ -32,8 +32,8 @@ extension Person {
             let person = Person(
                 name: names[index],
                 surname: surnames[index],
-                phones: phones[index],
-                emails: emails[index]
+                phone: phones[index],
+                email: emails[index]
             )
             
             personList.append(person)
@@ -51,8 +51,8 @@ extension Person {
         return Person(
             name: name,
             surname: surname,
-            phones: phone,
-            emails: email
+            phone: phone,
+            email: email
         )
     }
 }

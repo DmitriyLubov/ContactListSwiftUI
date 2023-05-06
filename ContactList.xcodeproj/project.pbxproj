@@ -15,6 +15,7 @@
 		B626D5032A05FBCC0063EB6A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B626D5012A05FBCC0063EB6A /* DataManager.swift */; };
 		B626D5052A060A780063EB6A /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B626D5042A060A780063EB6A /* PersonView.swift */; };
 		B626D5072A0610390063EB6A /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B626D5062A0610390063EB6A /* PersonListView.swift */; };
+		B626D5092A0617060063EB6A /* PersonListDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B626D5082A0617060063EB6A /* PersonListDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B626D5012A05FBCC0063EB6A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		B626D5042A060A780063EB6A /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
 		B626D5062A0610390063EB6A /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
+		B626D5082A0617060063EB6A /* PersonListDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				B626D4F02A05F8310063EB6A /* ContentView.swift */,
 				B626D5062A0610390063EB6A /* PersonListView.swift */,
 				B626D5042A060A780063EB6A /* PersonView.swift */,
+				B626D5082A0617060063EB6A /* PersonListDetails.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B626D5052A060A780063EB6A /* PersonView.swift in Sources */,
+				B626D5092A0617060063EB6A /* PersonListDetails.swift in Sources */,
 				B626D5022A05FBCC0063EB6A /* Person.swift in Sources */,
 				B626D5032A05FBCC0063EB6A /* DataManager.swift in Sources */,
 				B626D4F12A05F8310063EB6A /* ContentView.swift in Sources */,

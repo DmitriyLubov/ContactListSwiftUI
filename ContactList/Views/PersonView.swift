@@ -21,8 +21,8 @@ struct PersonView: View {
                 Spacer()
             }
             .padding()
-            Label(person.phones, systemImage: Contacts.phone.imageName)
-            Label(person.emails, systemImage: Contacts.email.imageName)
+            Label(person.phone, systemImage: Contacts.phone.imageName)
+            Label(person.email, systemImage: Contacts.email.imageName)
         }
         .navigationTitle(person.fullName)
     }
