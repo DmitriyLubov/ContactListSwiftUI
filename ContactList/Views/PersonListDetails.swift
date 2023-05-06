@@ -12,13 +12,16 @@ struct PersonListDetails: View {
     let personList: [Person]
     
     var body: some View {
-        List(personList, id: \.self) { person in
-            Section(person.fullName) {
-                Label(person.phone, systemImage: Contacts.phone.imageName)
-                Label(person.email, systemImage: Contacts.email.imageName)
+        NavigationStack {
+            List(personList, id: \.self) { person in
+                Section(person.fullName) {
+                    Label(person.phone, systemImage: Contacts.phone.imageName)
+                    Label(person.email, systemImage: Contacts.email.imageName)
+                }
             }
+            .listStyle(.plain)
+            .navigationTitle("Contact List")
         }
-        .listStyle(.plain)
     }
 }
 
